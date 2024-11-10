@@ -8,6 +8,7 @@
       max-width: 100%;
       max-height: 100%;
       scroll-behavior: smooth;
+      scroll-padding: 3em;
       font-family: "Mundial, sans serif";
       background-color: black;
    }
@@ -16,6 +17,7 @@
     background-color: black;
     height: fit-content;
     scroll-behavior: smooth;
+    scroll-padding: 7em;
    }
   
    .navbar {
@@ -382,7 +384,7 @@ button.active {
 }
 
 .container-fluid-footer #footer-text {
-    font-size: 2vh;
+    font-size: 1.8vw;
     color: #efbf04;
 }
 
