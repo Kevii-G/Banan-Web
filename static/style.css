@@ -149,21 +149,23 @@
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     top: 52.5vw;
-    left: 21.2%;
+    left: 20%;
     color: #9b1313;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     font-weight: 500;
     background-color: #efbf04;
-    padding: 0.5vh 0.8vh;
+    padding: 0.8vh 1vh;
     border-radius: 3vh;
     text-decoration: none;
     text-transform: uppercase;
     text-shadow: 0 0 0 1.5px black;
+    box-shadow: 1px 1.5px 3px rgba(221, 5, 5, 0.9);
    }
 
    .cta-button:hover {
     color: black;
     background-color: whitesmoke;
+    box-shadow: 1px 1.5px 3px #efbf04;
    }
 
 
@@ -398,17 +400,19 @@ button.active {
 .cta-button-2 {
     position: relative;
     color: #9b1313;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     font-weight: 500;
     background-color: #efbf04;
-    padding: 0.5vh 0.8vh;
+    padding: 0.8vh 1vh;
     border-radius: 3vh;
     text-decoration: none;
     text-transform: uppercase;
     text-shadow: 0 0 0 1.5px black;
+    box-shadow: 1px 1.5px 3px rgba(221, 5, 5, 0.9);
    }
 
    .cta-button-2:hover {
     color: black;
     background-color: whitesmoke;
+    box-shadow: 1px 1.5px 3px #efbf04;
    }
