@@ -159,13 +159,13 @@
     text-decoration: none;
     text-transform: uppercase;
     text-shadow: 0 0 0 1.5px black;
-    box-shadow: 1px 1.5px 3px rgba(221, 5, 5, 0.9);
+    box-shadow: 1.5px 1.5px 3px rgba(221, 5, 5, 0.9);
    }
 
    .cta-button:hover {
     color: black;
     background-color: whitesmoke;
-    box-shadow: 1px 1.5px 3px #efbf04;
+    box-shadow: 1.5px 1.5px 3px #efbf04;
    }
 
 
@@ -408,11 +408,11 @@ button.active {
     text-decoration: none;
     text-transform: uppercase;
     text-shadow: 0 0 0 1.5px black;
-    box-shadow: 1px 1.5px 3px rgba(221, 5, 5, 0.9);
+    box-shadow: 1.5px 1.5px 3px rgba(221, 5, 5, 0.9);
    }
 
    .cta-button-2:hover {
     color: black;
     background-color: whitesmoke;
-    box-shadow: 1px 1.5px 3px #efbf04;
+    box-shadow: 1.5px 1.5px 3px #efbf04;
    }
