@@ -102,7 +102,7 @@
     left: 20vw;
     color: #9b1313;
     font-size: 4vw;
-    font-weight: 200;
+    font-weight: 600;
     text-transform: uppercase;
     text-shadow: 1px #333, 0 0 0.1rem #efbf04;
    }
@@ -149,10 +149,10 @@
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     top: 52.5vw;
-    left: 20%;
+    left: 18.7%;
     color: #9b1313;
-    font-size: 1.2vw;
-    font-weight: 500;
+    font-size: 1.5vw;
+    font-weight: 600;
     background-color: #efbf04;
     padding: 0.8vh 1vh;
     border-radius: 3vh;
@@ -254,7 +254,7 @@ button.active {
     margin-left: 6vw;
     color: #9b1313;
     font-size: 2.5vw;
-    font-weight: 500;
+    font-weight: 600;
     text-transform: uppercase;
     text-shadow: 1px #efbf04, 0 0 0.1rem #efbf04;
 }
@@ -330,9 +330,27 @@ button.active {
     left: 5%;
 }
 
+.image-item:hover {
+    transform: scale(1.03);
+    box-shadow: 0.5px 0.5px 5px 1px #efbf04;
+}
+
 .image-item img {
     width: 80vw; /* Responsive */
     height: auto; /* Maintain aspect ratio */
+}
+
+.image-item h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    justify-content: center; /* Center the text vertically */
+    align-items: center; /* Center the text horizontally */
+    text-align: left;
+    padding: 3.5vw;
+    color: white;
 }
 
 .overlay {
@@ -348,8 +366,14 @@ button.active {
     background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent background */
     color: white; /* Text color */
     text-align: left;
-    transition: opacity 0.3s ease; /* Smooth show/hide effect */
+    transition: opacity 0.8s ease; /* Smooth show/hide effect */
     padding: 3.5vw;
+
+}
+
+.overlay:hover {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    transition: opacity 0.8s ease; /* Smooth show/hide effect */
 }
 
 .normal-text {
@@ -403,8 +427,8 @@ button.active {
 .cta-button-2 {
     position: relative;
     color: #9b1313;
-    font-size: 1.2vw;
-    font-weight: 500;
+    font-size: 1.5vw;
+    font-weight: 600;
     background-color: #efbf04;
     padding: 0.8vh 1vh;
     border-radius: 3vh;
