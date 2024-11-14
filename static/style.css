@@ -43,7 +43,7 @@
    }
 
    .navbar-brand {
-    height: 1vw;
+    height: 0.8vw;
     width: auto;
     text-transform: uppercase;
     color: #efbf04;
@@ -91,6 +91,7 @@
 
    .offcanvas-header .btn-close {
     background-size: 50%;
+    background-color: #FFDE4D;
 }
 
    .offcanvas-header .btn-close:hover {
@@ -150,6 +151,7 @@
 
    .header-image-container img {
     width: 100%;
+    object-fit: cover;
    }
 
    .cta-button {
@@ -266,6 +268,7 @@ button.active {
 .O-mne-image img {
    height: 50vw;
    width: auto;
+   object-fit: cover;
 }
 
 .O-mne h1 {
@@ -355,7 +358,8 @@ button.active {
 
 .image-item img {
     width: 80vw; /* Responsive */
-    height: auto; /* Maintain aspect ratio */
+    height: 45vw; 
+    object-fit: cover; /* Maintain aspect ratio */
 }
 
 .image-item h1 {
@@ -535,4 +539,10 @@ button.active {
     font-size: 1.8vw;
     color: #efbf04;
 }
+
+@media only screen and (max-width: 600px) {
+    .offcanvas {
+      max-width: min-content;
+    }
+  }
 
