@@ -33,6 +33,9 @@
               <a class="nav-link" href="#O-mne" id="O-mne-link">O mně</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="#uspechy" id="uspechy-link">Úspěchy</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#Sluzby" id="Sluzby-link">Služby</a>
           </li>
           <li class="nav-item">
@@ -56,29 +59,41 @@
       </div>
 
     <div class="divider">
-        <img src="static/assets/banan-silhouette (1).png" loading="eager" decoding="async" alt="silueta banán">
+        <img src="./static/assets/Logo_v_křívkách 1.png" class="divider-image-2" loading="eager" decoding="async" alt="sponzor banán">
+        <img src="./static/assets/banan-silhouette (1).png" loading="eager" decoding="async" alt="silueta banán">
+        <img src="./static/assets/tpf-capsicolle-logo-oval.png" class="divider-image-3" loading="eager" decoding="async" alt="sponzor banán">
     </div>
 
     <section class="O-mne" id="O-mne">
-      <a href="https://www.instagram.com/milos.beranek/"><div class="O-mne-image"><img src="./static/assets/DSC00240.png" loading="eager" decoding="async" alt="fotografie banán ve výstroji s mistrovským pásem na ramenou."></div></a>
+      <a href="https://www.instagram.com/milos.beranek/">
+        <div class="O-mne-image"><img src="./static/assets/DSC00240.png" loading="eager" decoding="async" alt="fotografie banán ve výstroji s mistrovským pásem na ramenou.">
+        </div>
+      </a>
       <div class="O-mne-text">
       <h1>Miloš Beránek</h1>
       <h2>boxujete, nebo chcete začít?</h2>
-      <div class="button-container">
-        <button class="active" id="O-mne-toggler-1">1.</button>
-        <button id="O-mne-toggler-2">2.</button>
-      </div>
       <div id="toggle-1"><p>Jmenuji se Miloš Beránek, ale všichni mi říkají "Banán."<br>
         K boxu mě přivedl táta, který mě dodnes trénuje.<br>
         Box je pro mě sport, který miluji a zároveň nesnáším –<br>
         Sám pochopíš, o čem mluvím, až přijdeš na trénink.</p></div>
-      <div class="hidden" id="toggle-2">
-      <p>
-        <br>S boxem jsem začal ve 12 letech. Za deset let jsem stihl <br>160 amatérských a 16 profesionálních zápasů.
-        <br>Šestkrát jsem vyhrál mistrovství České republiky,<br>dvakrát jsem dokázal vyhrát olympijské naděje,
-        <br>a aktuálně jsem českou profesionální jednička ve váze do <br>69,8 kg (super welter).
-        <br>Vyhrál jsem i spoustu mezinárodních turnajů a zúčastnil <br>se mistrovství světa.
-      </p>
+    </section>
+
+    <div class="divider-2"></div>
+
+    <section class="uspechy" id="uspechy">
+      <a href="https://www.instagram.com/milos.beranek/">
+      <div class="uspechy-image">
+        <img src="./static/assets/DSC00269.jpg" loading="eager" decoding="async" alt="fotografie banánu, jak chytá mistrovský pás">
+      </div></a>
+      <div class="uspechy-text">
+        <h1>Úspěchy</h1>
+        <h2>Jsem....</h2>
+        <ul style="list-style: none;" class="d-grid gap-2">
+          <li>Profesionální boxer s bilancí 14W-3L-1D.</li>
+          <li>Držitel českého profesionálního pásu ve váze super welter.</li>
+          <li>Šestinásobný amaterský mistr ČR s bilancí 125W-25L.</li>
+          <li>Účastník mistrovsktví světa a evropy.</li>
+        </ul>
       </div>
     </section>
 
@@ -127,7 +142,7 @@
       <p>v případě dotazů nebo rezervací se neváhejte obrátit na kteroukoli metodu.</p>
     <div class="button-grid">
       <div class="mailto-div">
-        <a class="mailto-button" href="mailto:">poslat email</a>
+        <a class="mailto-button" href="mailto:tenboxer1@gmail.com?subject=Dotazy%20nebo%20rezervace.">poslat email</a>
       </div>
       <div class="instagram-div">
         <a class="instagram-button" href="https://www.instagram.com/direct/t/117254859668748">přímou zprávu</a>
@@ -139,16 +154,15 @@
 </body>
 
 <div class="container-fluid-footer">
-  <hr>
-  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+  <footer class="d-flex flex-wrap justify-content-evenly align-items-center py-1 my-2">
     <div class="col-md-4 d-flex align-items-center">
-      <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+      <a href="/" class="mb-3 me-1 mb-md-0 text-body-secondary text-decoration-none">
         <img src="./static/assets/bananas-icon.png" width="23" height="auto" class="bananas-icon" loading="eager" decoding="async">
       <span id="footer-text">© 2024 Miloš Beránek</span></a>
     </div>
-    <div class="k-g-logo col-md-4 align-items-center" style="width: fit-content; height: fit-content; text-align: center;"><img src="./static/assets/k-g-logo(gold).png" height="auto" width="38%" loading="eager" decoding="async" alt="logo tvůrce webové stránky"></div>
-    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-      <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/milos.beranek/"><img width="18" height="auto" src="./static/assets/instagram.png" alt="ikona instagramu" loading="eager" decoding="async"></a></li>
+    <div class="k-g-logo align-items-center" style="width: fit-content; height: fit-content; text-align: center;"><img src="./static/assets/k-g-logo(gold).png" height="auto" width="38%" loading="eager" decoding="async" alt="logo tvůrce webové stránky"></div>
+    <ul class="nav col-md-4 justify-content-end list-unstyled">
+      <li class="ms-3"><a class="text-body-secondary ig-logo" href="https://www.instagram.com/milos.beranek/"><img width="100%" height="auto" src="./static/assets/instagram.png" alt="ikona instagramu" loading="eager" decoding="async"></a></li>
     </ul>
   </footer>
 </div>
